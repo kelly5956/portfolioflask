@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ title }}</title>
+	<link rel="shortcut icon" href="../static/backs_logo/MonogramCopy.png">
+
+
+	<link href="http://fonts.googleapis.com/css?family=Tangerine" rel='stylesheet' type='text/css'>
+
+	<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="../static/bootstrap-3.3.5-dist/css/bootstrap.css">
+
+	<link rel="stylesheet" href="../static/portfolio.css">
+
+	<meta name = "viewport" content="width=device-width, initial-scale=1, maximum-scale = 1">
+
+	<script>
+	var num = 1;
+	img1= new Image ();
+	img1.src = "../static/gallery/photo1.jpg";
+	img2 = new Image ();
+	img2.src = "../static/gallery/photo2.jpg";
+	img3 = new Image ();
+	img3.src = "../static/gallery/photo3.jpeg";
+	img4 = new Image ();
+	img4.src = "../static/gallery/photo4.jpg";
+	img5 = new Image ();
+	img5.src = "../static/gallery/photo5.jpg";
+
+
+	function slideshowUp(){
+	num=num+1
+	if (num==6)
+	{num=1}
+	document.getElementById("mypic").src=eval("img"+num+".src") }
+
+	function slideshowBack(){
+	num=num-1
+	if (num==0)
+	{num=5}
+	document.getElementById("mypic").src=eval("img"+num+".src") }
+
+	</script>
+</head>
+
+<body>
+
+
+ <header>
+ 	<img src="../static/backs_logo/MonogramCopy.png" alt="My initials">
+ 	<h1>Kelly Fischer</h1>
+
+ <nav>
+<ul class="nav nav-tabs nav-justified" role="tablist">
+	<li {% if name == "index" %} class = "active" {% endif %}
+	><a href="index">Home</a></li>
+
+	<li {% if name == "keeping" %} class = "active" {% endif %}
+	><a href="keeping">Keeping Up With Kelly</a></li>
+
+	<li {% if name == "education" %} class = "active" {% endif %}
+	><a href="education">Education</a></li>
+
+	<li {% if name == "resume" %} class = "active" {% endif %}
+	><a href="resume">Resum&eacute; </a></li>
+
+	<li {% if name == "contact" %} class = "active" {% endif %}
+	><a href="contact">Contact</a></li>
+</ul> 
+</nav> 
+</header>
+
+{% block content %}
+	You should never see this!!
+{% endblock %}
+
+<footer>
+	<p>Connect with Me</p>
+	<div class= "row">
+		<div class= "col-md-3">
+			<a href= https://goo.gl/jFpeJf><img src="../static/social/Twitter.png" alt= "Twitter"></a>
+		</div>
+		<div class= "col-md-3">
+			<a href= https://www.facebook.com/KellyJuneFisch><img src="../static/social/Facebook.png" alt= "Facebook"></a>
+		</div>
+		<div class= "col-md-3">
+		<a href= https://goo.gl/q4CfBk><img src="../static/social/linkedin.png" alt="linkedin"></a>
+		</div>
+		<div class= "col-md-3">
+		<a href=https://instagram.com/kelly5956/><img src="../static/social/instagram.png" alt="instagram"></a>
+	</div>
+</div>
+
+<p><a href="mailto:kjfisch@umich.edu">Send me an Email</a></p>
+</footer>
+</body>
+</html>
+

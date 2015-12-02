@@ -1,0 +1,40 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+<section class = "AboutMe">
+<div class="row">
+<div class="col-md-6">
+	<div class="section_one">
+    <h2>Hey Everybody!</h2>
+		<p>The name's Kelly. I'm a junior at the University of Michigan (Go Blue!) studying User Experiene Design in the School of Information. I wasn't born, but was mostly raised, in Mendham New Jersey. My future plans involve working in digital marketing, hopefully in New York City. When not in class or the library for hours on end, I can be found watching "Cupcake Wars" with my roommate. </p>
+  </div>
+</div>
+
+  <div class="col-md-6">
+  		<div class = "section_two">
+    <h2>Fun Facts</h2>
+    	<ul>
+		<li>I don't like scripted television because I think "it gets so stupid so quickly" but, ironically, my favorite TV show is "The Bachelor".</li>
+		<li>I read the Harry Potter series three times this last summer</li>
+		<li>I was in the top 10 for every Geography Bee in middle school. I have clearly peaked.</li>
+		<li> "Your last name is Fischer? Oh you must love to fish!"... I get this a lot, and while it isn't original or funny, it is true.</li>
+		<li>My dog's name is Beast, and his nickname is Satan. He's so cute, but so evil.</li>
+		<li> If I could eat one meal for the rest of my life, it would be a toasted poppy seed bagel with cream cheese and lox from Tal Bagel on E 86th street in New York City.</li>
+	</ul>
+						
+  	</div>	
+  	</div>
+	</div>
+</section>
+<div class="Photos">
+<h2>Photos</h2>
+<img src="../static/gallery/photo1.jpg" id="mypic" alt= "Fall Break in Chicago">
+</div>
+
+<div class= "button">
+<a href="JavaScript:slideshowBack()"> Back</A>
+<a href="JavaScript:slideshowUp()"> Next</A>
+</div>
+
+{% endblock %}

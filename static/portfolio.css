@@ -1,0 +1,474 @@
+body {
+	background-color: powderblue;
+}
+
+header {
+	border-bottom:2px double white;
+    padding-bottom:1px;
+}
+
+header img {
+	width: 8%;
+}
+header h1 {	
+	font-family: 'Tangerine', cursive;
+	color: white;
+	font-weight:bold;
+	display: inline-block;
+	text-align: center;
+	width: 85%;	
+	font-size: 70px;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover{
+    background-color: whitesmoke;
+}
+
+.nav-tabs a{
+	color:whitesmoke;
+}
+
+
+.AboutMe {
+	background-image: url(backs_logo/Brigantine.JPG);
+	background-size: 100%;
+}
+
+.section_one {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	background-color: white;
+	background-color: rgba(255, 255, 255, 0.75);
+	width:85%;
+	color:black;
+	font-family: 'Georgia', serif;
+	margin-top:72px;
+}
+
+.section_one h2 {
+	font-size: 35px;
+	line-height: 40px;
+	font-family: 'Shadows Into Light', cursive;
+	color: black;
+}
+
+.section_one p {
+	font-size: 18px;
+	color: black;
+}
+
+.section_two {
+	padding: 5px;
+	background-color: rgba(255, 255, 255, 0.75);
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	font-family: 'Georgia', serif;
+	color:black;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.section_two h2 {
+	text-align: center;
+	font-size: 35px;
+	line-height: 40px;
+	font-family: 'Shadows Into Light', cursive;
+	color: black;
+
+}
+
+.section_two  li {
+	font-size: 18px;
+	font-family: 'Georgia', serif;
+	color: black;
+}
+
+.Photos h2 {
+	text-align: center;
+	color:black;
+	font-size: 35px;
+	font-family: 'Shadows Into Light', cursive;
+
+}
+
+.Photos img {
+	width: 30%;
+	display: block;
+	margin: 0 auto;
+}
+
+.button {
+	width: 30%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.button a {
+	padding-right: 20%;
+	padding-left: 20%;
+
+}
+
+
+footer img {
+	width: 42px;
+	height: 42px;
+}
+
+footer {
+	border-top:2px double white;
+    padding-bottom:1px;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 20px;
+	color:black;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+footer a {
+	color: black;
+}
+
+
+.KeepingUp h2{
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top:30px;
+	color: black;
+
+}
+
+.CA_1{
+	font-family: 'Georgia', serif;
+	color:black;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	padding-bottom: 5px;
+}
+
+.NJ_1{
+	font-family: 'Georgia', serif;
+	color: black;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	padding-bottom: 5px;
+}
+
+.CA_2{
+	color:black;
+	font-family: 'Georgia', serif;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	padding-bottom: 5px;
+}
+
+.TN {
+	color:black;
+	font-family: 'Georgia', serif;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	padding-bottom: 5px;
+}
+
+.NJ_2{
+	color:black;
+	font-family: 'Georgia', serif;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	padding-bottom: 5px;
+}
+
+.MI {
+	color:black;
+	font-family: 'Georgia', serif;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	padding-bottom: 5px;
+}
+
+.UK {
+	color:black;
+	font-family: 'Georgia', serif;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	padding:5px;
+}
+
+iframe{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 60%;
+	height: 700px;
+	margin-bottom:10px;
+
+}
+
+.resume h2{
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top:30px;
+	color: black;
+
+}
+
+.education {
+	margin-top:0;
+	background-image: url(backs_logo/chalkboard.jpg);
+	background-size: 100%
+}
+
+.edu_heading h2 {
+	margin-top: 0;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+	color: white;
+
+}
+
+.edu_heading h3 {
+	color:white;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom:30px;
+
+}
+
+.UofM {
+	width:60%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+}
+.UofM h3 {
+	color:white;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 30px;
+	text-align: center;
+}
+
+.UofM p {
+	font-family: 'Georgia', serif;
+	color:white;
+	text-align: center;
+	font-size: 15px;
+}
+
+.SI {
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	margin-top:10px;
+}
+
+.SI p {
+	font-family: 'Georgia', serif;
+	color:white;
+	text-align: center;
+	font-size: 15px;
+}
+
+
+.SI h3 {
+	color:white;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 30px;
+	text-align: center;
+}
+
+form {
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	padding:5px;
+}
+
+
+.contact h2 {
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top:30px;
+	color: black;
+}
+
+
+
+
+@media only screen and (max-width: 480px){
+	body {
+		background-size: 100%;
+	}
+	header img {
+		display: none;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	.Photos {
+		display: none;
+	}
+
+	.button {
+		display: none;
+	}
+
+	.AboutMe {
+		text-align: center;
+		size: 100%;
+		background-image: none;
+	}
+
+	.section_two ul {
+		text-align: left;
+	}
+
+	.education {
+		text-align: center;
+		size: 100%;
+		background-image: none;
+	}
+
+	.UofM {
+		background-color: rgba(255, 255, 255, 0.5);
+	}
+
+	.UofM h3 {
+		color:black;
+	}
+
+	.UofM p {
+		color:black;
+	}
+
+	.SI {
+		background-color: rgba(255, 255, 255, 0.5);
+	}
+
+	.SI h3{
+		color:black;
+	}
+
+	.SI p {
+		color:black;
+	}
+
+
+	.edu_heading h2 {
+		color:black;
+	}
+	.edu_heading h3 {
+		color:black;
+	}
+
+}
+
+@media only screen and (max-width: 1024px) { 
+	.AboutMe {
+		text-align: center;
+		size: 100%;
+		background-image: none;
+	}
+
+	.section_two ul {
+		text-align: left;
+	}
+
+	.education {
+		text-align: center;
+		size: 100%;
+		background-image: none;
+	}
+
+	.Photos {
+		display: none;
+	}
+
+	.button {
+		display: none;
+	}
+
+	.UofM {
+		background-color: rgba(255, 255, 255, 0.5);
+		color:black;
+	}
+
+	.UofM h3 {
+		color:black;
+	}
+
+	.UofM p {
+		color:black;
+	}
+
+	.SI {
+		background-color: rgba(255, 255, 255, 0.5);
+		color:black;
+	}
+
+	.SI h3{
+		color:black;
+	}
+
+	.SI p {
+		color:black;
+	}
+
+
+	.edu_heading h2 {
+		color:black;
+	}
+	.edu_heading h3 {
+		color:black;
+	}
+}
+
+
+
